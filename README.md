@@ -5,8 +5,6 @@
 A powerful, web-based code editor that combines GitHub integration with advanced AI capabilities to enhance your development workflow. Built with React, TypeScript, and powered by Google's Gemini AI.
 
 ![CodeVanta AI](https://img.shields.io/badge/helloworld%20Powered-purple?style=for-the-badge&logo=react)
-![Version](https://img.shields.io/badge/version-2.0.0-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 
 ##  Features
 
