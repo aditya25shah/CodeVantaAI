@@ -1,54 +1,59 @@
-# CodeVanta AI 🚀
+# CodeVanta AI 
 
 **Intelligent Code Editor with AI Assistance**
 
 A powerful, web-based code editor that combines GitHub integration with advanced AI capabilities to enhance your development workflow. Built with React, TypeScript, and powered by Google's Gemini AI.
 
-![CodeVanta AI](https://img.shields.io/badge/CodeVanta-AI%20Powered-purple?style=for-the-badge&logo=react)
+![CodeVanta AI](https://img.shields.io/badge/helloworld%20Powered-purple?style=for-the-badge&logo=react)
 ![Version](https://img.shields.io/badge/version-2.0.0-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 
-## ✨ Features
+##  Features
 
-### 🤖 AI-Powered Development
+###  AI-Powered Development
+
 - **Intelligent Code Assistance**: Get smart suggestions, code optimization, and bug fixes
 - **Natural Language Programming**: Describe what you want and let AI write the code
 - **Code Explanation**: Understand complex code with AI-powered explanations
 - **Multi-language Support**: AI assistance for JavaScript, Python, HTML, CSS, TypeScript, and more
 
-### 🔧 Advanced Code Editor
-- **Monaco Editor Integration**: VS Code-like editing experience
+###  Advanced Code Editor
+
 - **Syntax Highlighting**: Support for 20+ programming languages
 - **Code Formatting**: Built-in Prettier integration
 - **Smart Autocomplete**: Intelligent code completion
 - **Multi-file Management**: Work with multiple files simultaneously
 
-### 🐙 GitHub Integration
+###  GitHub Integration
+
 - **Repository Management**: Browse, create, and manage repositories
 - **Branch Operations**: Create, switch, and manage branches
 - **File Operations**: Create, edit, and delete files directly
 - **Commit History**: View and track project changes
 - **Real-time Sync**: Automatic synchronization with GitHub
 
-### 🖥️ Multi-Language Terminal
+###  Multi-Language Terminal
+
 - **Universal Execution**: Run JavaScript, Python, HTML, CSS, JSON, Markdown, and more
 - **Real-time Output**: See execution results instantly
 - **Interactive Commands**: Full terminal experience with command history
 - **File Analysis**: Analyze and process different file types
 - **Code Debugging**: Execute and test code snippets
 
-### 🎨 Modern UI/UX
+###  Modern UI/UX
+
 - **Responsive Design**: Works perfectly on desktop, tablet, and mobile
 - **Dark/Light Themes**: Choose your preferred coding environment
 - **Split Panels**: Customizable layout with resizable panels
 - **File Explorer**: Intuitive file tree navigation
 - **Celebration Animations**: Delightful feedback for actions
 
-## 🚀 Live Demo
+##  Live Demo
 
 Experience CodeVanta AI live: **[https://adityawebeditor.netlify.app](https://adityawebeditor.netlify.app)**
 
-## 📋 Prerequisites
+
+##  Prerequisites
 
 Before you begin, ensure you have:
 
@@ -63,7 +68,7 @@ Before you begin, ensure you have:
    - Create a new API key
    - Copy the key for setup
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 ### Option 1: Use the Live Version
 Simply visit [https://adityawebeditor.netlify.app](https://adityawebeditor.netlify.app) and enter your tokens when prompted.
@@ -72,8 +77,8 @@ Simply visit [https://adityawebeditor.netlify.app](https://adityawebeditor.netli
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/codevanta-ai.git
-   cd codevanta-ai
+   git clone https://github.com/aditya25shah/helloworld.git
+   cd helloworld
    ```
 
 2. **Install dependencies**
@@ -93,28 +98,33 @@ Simply visit [https://adityawebeditor.netlify.app](https://adityawebeditor.netli
    - GitHub Personal Access Token
    - Gemini API Key
 
-## 🎯 Quick Start Guide
+##  Quick Start Guide
 
 ### 1. Initial Setup
+
 - Enter your GitHub token and Gemini API key
 - The application will verify your tokens automatically
 
 ### 2. Repository Management
+
 - **Select Repository**: Choose from your existing repositories
 - **Create New**: Create a new repository directly from the editor
 - **Switch Branches**: Easily switch between different branches
 
 ### 3. File Operations
+
 - **Create Files**: Use the file explorer to create new files
 - **Edit Code**: Use the powerful Monaco editor with AI assistance
 - **Save Changes**: Save files locally or push to GitHub
 
 ### 4. AI Assistance
+
 - **Open AI Sidebar**: Click the AI button in the toolbar
 - **Ask Questions**: Get help with your code, debugging, or explanations
 - **Code Generation**: Describe features and let AI write the code
 
 ### 5. Terminal Usage
+
 - **Open Terminal**: Click the Terminal button
 - **Run Files**: Use `run filename.ext` to execute any file
 - **Direct Execution**: Use `js`, `py`, or other commands for quick testing
@@ -147,7 +157,7 @@ echo <text>      # Display text
 - `Ctrl/Cmd + -` - Zoom out
 - `Ctrl/Cmd + 0` - Reset zoom
 
-## 🌟 Supported File Types
+##  Supported File Types
 
 | Language | Extensions | Features |
 |----------|------------|----------|
@@ -161,14 +171,14 @@ echo <text>      # Display text
 | Markdown | `.md` | Preview, analysis, AI assistance |
 | XML | `.xml` | Validation, syntax highlighting |
 
-## 🔒 Security & Privacy
+##  Security & Privacy
 
 - **Token Security**: All tokens are stored locally in your browser
 - **No Server Storage**: Your code and tokens never leave your device
 - **GitHub API**: Direct communication with GitHub's secure API
 - **Gemini AI**: Secure communication with Google's AI services
 
-## 🤝 Contributing
+## How to Start Contributing
 
 We welcome contributions! Here's how you can help:
 
@@ -187,26 +197,25 @@ We welcome contributions! Here's how you can help:
    ```
 5. **Open a Pull Request**
 
-## 📝 License
+##  License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Custom License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
-- **Monaco Editor** - Powerful code editor
 - **GitHub API** - Repository management
 - **Google Gemini** - AI assistance
 - **React** - UI framework
 - **Tailwind CSS** - Styling
 - **Vite** - Build tool
 
-## 📞 Support
+##  Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/codevanta-ai/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/codevanta-ai/discussions)
-- **Email**: support@codevanta.ai
+- **Issues**: [GitHub Issues](https://github.com/aditya25shah/helloworld/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/aditya25shah/helloworld/discussions)
+- **Email**: aditya546shah@gmail.com
 
-## 🗺️ Roadmap
+## 🗺 Roadmap
 
 - [ ] **Plugin System**: Extensible plugin architecture
 - [ ] **Collaborative Editing**: Real-time collaboration features
@@ -221,6 +230,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Built with ❤️ by developers, for developers**
 
-[🌟 Star this project](https://github.com/yourusername/codevanta-ai) | [🐛 Report Bug](https://github.com/yourusername/codevanta-ai/issues) | [💡 Request Feature](https://github.com/yourusername/codevanta-ai/issues)
+[🌟 Star this project](https://github.com/aditya25shah/helloworld) | [🐛 Report Bug](https://github.com/aditya25shah/helloworld/issues) | [💡 Request Feature](https://github.com/aditya25shah/helloworld/issues)
 
 </div>
