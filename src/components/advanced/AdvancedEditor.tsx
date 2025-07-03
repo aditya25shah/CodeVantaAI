@@ -6,13 +6,14 @@ import { SmartCodeActions } from './SmartCodeActions';
 import { IntelligentAutoComplete } from './IntelligentAutoComplete';
 import { useHotkeys } from 'react-hotkeys-hook';
 import { Save, Search, Replace, ZoomIn, ZoomOut, RotateCcw, Settings, Maximize2, Minimize2, Copy, Scissors, FileText, Code, Eye, EyeOff, Palette, Type, Grid3X3, WrapText as Wrap, Map } from 'lucide-react';
+// imported neccessary libraries and icons
 
 interface AdvancedEditorProps {
   onCodeChange: (code: string) => void;
   onSave: () => void;
   onFormat: () => void;
 }
-
+// props interface for the AdvancedEditor component
 export const AdvancedEditor: React.FC<AdvancedEditorProps> = ({
   onCodeChange,
   onSave,
@@ -41,46 +42,46 @@ export const AdvancedEditor: React.FC<AdvancedEditorProps> = ({
   const activeFile = files.find(f => f.id === activeFileId);
 
   // Keyboard shortcuts
-  useHotkeys('ctrl+s', (e) => {
+  useHotkeys('ctrl+s', (e) => {// you can save using Ctrl + S
     e.preventDefault();
     onSave();
   });
 
-  useHotkeys('ctrl+f', (e) => {
+  useHotkeys('ctrl+f', (e) => {// you can Find using Ctrl + f
     e.preventDefault();
     setShowFind(true);
   });
 
-  useHotkeys('shift+alt+f', (e) => {
+  useHotkeys('shift+alt+f', (e) => {// you can format using Shift+alt+f
     e.preventDefault();
     onFormat();
   });
 
-  useHotkeys('ctrl+equal', (e) => {
+  useHotkeys('ctrl+equal', (e) => {// you can increase the size  using Ctrl + +
     e.preventDefault();
     updateSettings({ fontSize: Math.min(settings.fontSize + 2, 24) });
   });
 
-  useHotkeys('ctrl+minus', (e) => {
+  useHotkeys('ctrl+minus', (e) => {// you can decrease the size  using Ctrl + -
     e.preventDefault();
     updateSettings({ fontSize: Math.max(settings.fontSize - 2, 10) });
   });
 
   useHotkeys('ctrl+0', (e) => {
     e.preventDefault();
-    updateSettings({ fontSize: 14 });
+    updateSettings({ fontSize: 14 });// open setting using Ctrl + 0
   });
 
   useHotkeys('f11', (e) => {
     e.preventDefault();
-    setIsFullscreen(!isFullscreen);
+    setIsFullscreen(!isFullscreen);// set to fullscreen
   });
 
   const handleEditorDidMount = (editor: any, monaco: Monaco) => {
     editorRef.current = editor;
     monacoRef.current = monaco;
 
-    // Configure editor
+    // Basic Configuration of Editor i.e change font size,family,tab size word wrap and etc
     editor.updateOptions({
       fontSize: settings.fontSize,
       fontFamily: settings.fontFamily,
@@ -151,7 +152,7 @@ export const AdvancedEditor: React.FC<AdvancedEditorProps> = ({
     });
 
     // Add AI completion provider
-    monaco.languages.registerCompletionItemProvider(activeFile?.language || 'javascript', {
+    monaco.languages.registerCompletionItemProvider(activeFile?.language || 'javascript', { // using monaco editor 
       provideCompletionItems: (model, position) => {
         const word = model.getWordUntilPosition(position);
         const range = {
