@@ -179,7 +179,7 @@ export const AdvancedEditor: React.FC<AdvancedEditorProps> = ({
       },
     });
 
-    // Selection change handler
+    // Selection change handler 
     editor.onDidChangeCursorSelection((e: any) => {
       const selection = editor.getSelection();
       const selectedText = editor.getModel()?.getValueInRange(selection);
