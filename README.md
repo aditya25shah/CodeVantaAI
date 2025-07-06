@@ -6,7 +6,7 @@ A powerful, web-based code editor that combines GitHub integration with advanced
 
 ![CodeVanta AI](https://img.shields.io/badge/helloworld%20Powered-purple?style=for-the-badge&logo=react)
 
-##  Features
+##  Features of CodeVanta AI
 
 ###  AI-Powered Development
 
