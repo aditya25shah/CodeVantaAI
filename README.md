@@ -137,6 +137,7 @@ cat <file>       # Display file contents
 run [file]       # Execute any supported file type
 
 # Direct execution
+preview <code>   # Live Preview of HTML Pages
 js <code>        # Execute JavaScript
 py <code>        # Execute Python
 node <code>      # Execute Node.js
@@ -161,6 +162,7 @@ echo <text>      # Display text
 |----------|------------|----------|
 | JavaScript | `.js`, `.mjs` | Execution, AI assistance, formatting |
 | Python | `.py` | Execution, AI assistance, syntax highlighting |
+| Java | `.py` | Execution, AI assistance, syntax highlighting |
 | HTML | `.html`, `.htm` | Preview, execution, AI assistance |
 | CSS | `.css`, `.scss` | Analysis, formatting, AI assistance |
 | TypeScript | `.ts`, `.tsx` | AI assistance, syntax highlighting |
