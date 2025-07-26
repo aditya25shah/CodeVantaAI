@@ -74,7 +74,31 @@ function App() {
               </div>
             </div>
           </div>
+          <div className="input-field">
+            <label htmlFor="userName">Your Name</label>
+            <input
+              id="userName"
+              type="text"
+              value={userName}
+              onChange={(e) => setUserName(e.target.value)}
+              placeholder="Enter your full name"
+              className="your-existing-input-classes"
+              required
+            />
+          </div>
 
+          <div className="input-field">
+            <label htmlFor="userEmail">Email Address</label>
+            <input
+              id="userEmail"
+              type="email"
+              value={userEmail}
+              onChange={(e) => setUserEmail(e.target.value)}
+              placeholder="Enter your email address"
+              className="your-existing-input-classes"
+              required
+            />
+          </div>
           {/* Token Setup */}
           <TokenSetup
             onTokensSubmit={(githubToken, geminiToken) => {
