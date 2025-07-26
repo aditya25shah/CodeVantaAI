@@ -266,7 +266,7 @@ export const Toolbar: React.FC = () => {
         {/* Logo */}
         <div className="flex items-center gap-3 mr-6">
           <div className="w-8 h-8 bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 rounded-lg flex items-center justify-center">
-            <span className="text-lg">🧠</span>
+            <Brain className="w-4 h-4 text-white" />
           </div>
           <span className="text-lg font-bold text-slate-900 dark:text-white">CodeVanta AI</span>
         </div>
@@ -472,7 +472,7 @@ export const Toolbar: React.FC = () => {
             }`}
             title="Toggle AI Assistant"
           >
-            <span className="text-lg">🧠</span>
+            <Brain className="w-4 h-4" />
           </button>
         </div>
 
