@@ -162,7 +162,7 @@ echo <text>      # Display text
 |----------|------------|----------|
 | JavaScript | `.js`, `.mjs` | Execution, AI assistance, formatting |
 | Python | `.py` | Execution, AI assistance, syntax highlighting |
-| Java | `.py` | Execution, AI assistance, syntax highlighting |
+| Java | `.java` | Execution, AI assistance, syntax highlighting |
 | HTML | `.html`, `.htm` | Preview, execution, AI assistance |
 | CSS | `.css`, `.scss` | Analysis, formatting, AI assistance |
 | TypeScript | `.ts`, `.tsx` | AI assistance, syntax highlighting |
