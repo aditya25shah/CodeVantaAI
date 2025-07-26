@@ -3,7 +3,7 @@ import { useEditorStore } from './store/editorStore';
 import { MainLayout } from './components/layout/MainLayout';
 import { TokenSetup } from './components/TokenSetup';
 import { Brain, Sparkles, Zap, Bot, Shield, Globe } from 'lucide-react';
-
+//importing basic modules 
 function App() {
   const { aiApiKey } = useEditorStore();
 
@@ -80,7 +80,7 @@ function App() {
             onTokensSubmit={(githubToken, geminiToken) => {
               // Store tokens and initialize
               useEditorStore.getState().setAIApiKey(geminiToken);
-              localStorage.setItem('github_token', githubToken);
+              sessionStorage.setItem('github_token', githubToken);
             }}
           />
         </div>
